@@ -63,3 +63,15 @@ class User(Model):
                         user_id = %(UID)s;
                     """
         return self.db.execute(sql, args, False)[0]
+    
+    def update_schedule_no_login(self, args):
+        sql = """   UPDATE
+                        public.user_account
+                    SET
+                        major       = %(Major)s,
+                        degree      = %(Degree)s,
+                        schedule    = %(Schedule)s
+                    WHERE
+                        user_id = %(UID)s;
+                    """
+        return self.db.execute(sql, args, False)[0]
