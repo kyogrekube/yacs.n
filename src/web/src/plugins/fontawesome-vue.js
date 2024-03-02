@@ -13,6 +13,7 @@ import {
   faSearch,
   faAddressBook,
   faFileAlt,
+  //faCircleInfo,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -24,6 +25,7 @@ library.add(
   faSearch,
   faAddressBook,
   faFileAlt
+  //faCircleInfo
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
