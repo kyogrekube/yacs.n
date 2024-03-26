@@ -33,6 +33,14 @@
         </div>
       </div>
     </div>
+    <div class="centered-boxes">
+      <div class="column-section">
+        <div class="categoryBox border m-2 mb-4">
+          <h3 class="category-title">How to Contribute</h3>
+          <p>The Yacs team have conviently created an <a href="https://github.com/YACS-RCOS/yacs.n-onboarding/blob/main/YACS.n%20onboarding%20guide.pdf">onboarding guide</a> for your personal use!</p>
+        </div>
+      </div>
+    </div>
   </b-container>
 </template>
 
